@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      IMAGE_NAME: tudoui
+      IMAGE_NAME: addtask # Name of the Docker image
       IMAGE_TAG: ${{ github.sha }}
       ACR_NAME: anzacr1
       ACR_LOGIN_SERVER: anzacr1.azurecr.io
